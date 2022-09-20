@@ -10,9 +10,19 @@
 		ECF37A0F28D30F3D00A4C1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A0E28D30F3D00A4C1F4 /* AppDelegate.swift */; };
 		ECF37A1128D30F3D00A4C1F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A1028D30F3D00A4C1F4 /* SceneDelegate.swift */; };
 		ECF37A1328D30F3D00A4C1F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A1228D30F3D00A4C1F4 /* ViewController.swift */; };
-		ECF37A1628D30F3D00A4C1F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF37A1428D30F3D00A4C1F4 /* Main.storyboard */; };
 		ECF37A1828D30F3E00A4C1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF37A1728D30F3E00A4C1F4 /* Assets.xcassets */; };
 		ECF37A1B28D30F3E00A4C1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF37A1928D30F3E00A4C1F4 /* LaunchScreen.storyboard */; };
+		ECF37A2828D313C300A4C1F4 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A2728D313C300A4C1F4 /* WelcomePresenter.swift */; };
+		ECF37A2A28D313D200A4C1F4 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A2928D313D200A4C1F4 /* WelcomeRouter.swift */; };
+		ECF37A2E28D313FD00A4C1F4 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A2D28D313FD00A4C1F4 /* WelcomeInteractor.swift */; };
+		ECF37A3028D3141300A4C1F4 /* WelcomeModuleBilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A2F28D3141300A4C1F4 /* WelcomeModuleBilder.swift */; };
+		ECF37A3228D31B0A00A4C1F4 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A3128D31B0A00A4C1F4 /* DateService.swift */; };
+		ECF37A3428D31B1D00A4C1F4 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A3328D31B1D00A4C1F4 /* WeatherService.swift */; };
+		ECF37A3628D33EDB00A4C1F4 /* ImageViewerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A3528D33EDB00A4C1F4 /* ImageViewerInteractor.swift */; };
+		ECF37A3828D33EF100A4C1F4 /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A3728D33EF100A4C1F4 /* ImageViewerViewController.swift */; };
+		ECF37A3A28D33F1000A4C1F4 /* ImageViewerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A3928D33F1000A4C1F4 /* ImageViewerRouter.swift */; };
+		ECF37A3C28D33F3300A4C1F4 /* ImageViewerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A3B28D33F3300A4C1F4 /* ImageViewerPresenter.swift */; };
+		ECF37A3E28D33F4E00A4C1F4 /* ImageViewerModuleBulder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF37A3D28D33F4E00A4C1F4 /* ImageViewerModuleBulder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +30,20 @@
 		ECF37A0E28D30F3D00A4C1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF37A1028D30F3D00A4C1F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ECF37A1228D30F3D00A4C1F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ECF37A1528D30F3D00A4C1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECF37A1728D30F3E00A4C1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECF37A1A28D30F3E00A4C1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECF37A1C28D30F3E00A4C1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF37A2728D313C300A4C1F4 /* WelcomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
+		ECF37A2928D313D200A4C1F4 /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		ECF37A2D28D313FD00A4C1F4 /* WelcomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
+		ECF37A2F28D3141300A4C1F4 /* WelcomeModuleBilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeModuleBilder.swift; sourceTree = "<group>"; };
+		ECF37A3128D31B0A00A4C1F4 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		ECF37A3328D31B1D00A4C1F4 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		ECF37A3528D33EDB00A4C1F4 /* ImageViewerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerInteractor.swift; sourceTree = "<group>"; };
+		ECF37A3728D33EF100A4C1F4 /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		ECF37A3928D33F1000A4C1F4 /* ImageViewerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerRouter.swift; sourceTree = "<group>"; };
+		ECF37A3B28D33F3300A4C1F4 /* ImageViewerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerPresenter.swift; sourceTree = "<group>"; };
+		ECF37A3D28D33F4E00A4C1F4 /* ImageViewerModuleBulder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerModuleBulder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,65 @@
 		ECF37A0D28D30F3D00A4C1F4 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				ECF37A2228D30F7700A4C1F4 /* ImageViewer */,
+				ECF37A2328D30F8900A4C1F4 /* Welcome */,
+				ECF37A2428D30F9700A4C1F4 /* Api */,
+				ECF37A2528D30FA200A4C1F4 /* Application */,
+				ECF37A2628D30FB300A4C1F4 /* Resources */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		ECF37A2228D30F7700A4C1F4 /* ImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				ECF37A3D28D33F4E00A4C1F4 /* ImageViewerModuleBulder.swift */,
+				ECF37A3B28D33F3300A4C1F4 /* ImageViewerPresenter.swift */,
+				ECF37A3928D33F1000A4C1F4 /* ImageViewerRouter.swift */,
+				ECF37A3728D33EF100A4C1F4 /* ImageViewerViewController.swift */,
+				ECF37A3528D33EDB00A4C1F4 /* ImageViewerInteractor.swift */,
+			);
+			path = ImageViewer;
+			sourceTree = "<group>";
+		};
+		ECF37A2328D30F8900A4C1F4 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				ECF37A1228D30F3D00A4C1F4 /* ViewController.swift */,
+				ECF37A2728D313C300A4C1F4 /* WelcomePresenter.swift */,
+				ECF37A2928D313D200A4C1F4 /* WelcomeRouter.swift */,
+				ECF37A2D28D313FD00A4C1F4 /* WelcomeInteractor.swift */,
+				ECF37A2F28D3141300A4C1F4 /* WelcomeModuleBilder.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		ECF37A2428D30F9700A4C1F4 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				ECF37A3128D31B0A00A4C1F4 /* DateService.swift */,
+				ECF37A3328D31B1D00A4C1F4 /* WeatherService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		ECF37A2528D30FA200A4C1F4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				ECF37A0E28D30F3D00A4C1F4 /* AppDelegate.swift */,
 				ECF37A1028D30F3D00A4C1F4 /* SceneDelegate.swift */,
-				ECF37A1228D30F3D00A4C1F4 /* ViewController.swift */,
-				ECF37A1428D30F3D00A4C1F4 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		ECF37A2628D30FB300A4C1F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				ECF37A1728D30F3E00A4C1F4 /* Assets.xcassets */,
 				ECF37A1928D30F3E00A4C1F4 /* LaunchScreen.storyboard */,
 				ECF37A1C28D30F3E00A4C1F4 /* Info.plist */,
 			);
-			path = VIPER;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +197,6 @@
 			files = (
 				ECF37A1B28D30F3E00A4C1F4 /* LaunchScreen.storyboard in Resources */,
 				ECF37A1828D30F3E00A4C1F4 /* Assets.xcassets in Resources */,
-				ECF37A1628D30F3D00A4C1F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +207,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECF37A3828D33EF100A4C1F4 /* ImageViewerViewController.swift in Sources */,
+				ECF37A3028D3141300A4C1F4 /* WelcomeModuleBilder.swift in Sources */,
+				ECF37A3628D33EDB00A4C1F4 /* ImageViewerInteractor.swift in Sources */,
+				ECF37A3A28D33F1000A4C1F4 /* ImageViewerRouter.swift in Sources */,
+				ECF37A3428D31B1D00A4C1F4 /* WeatherService.swift in Sources */,
 				ECF37A1328D30F3D00A4C1F4 /* ViewController.swift in Sources */,
+				ECF37A2828D313C300A4C1F4 /* WelcomePresenter.swift in Sources */,
+				ECF37A3E28D33F4E00A4C1F4 /* ImageViewerModuleBulder.swift in Sources */,
+				ECF37A3228D31B0A00A4C1F4 /* DateService.swift in Sources */,
+				ECF37A2E28D313FD00A4C1F4 /* WelcomeInteractor.swift in Sources */,
+				ECF37A3C28D33F3300A4C1F4 /* ImageViewerPresenter.swift in Sources */,
 				ECF37A0F28D30F3D00A4C1F4 /* AppDelegate.swift in Sources */,
+				ECF37A2A28D313D200A4C1F4 /* WelcomeRouter.swift in Sources */,
 				ECF37A1128D30F3D00A4C1F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +227,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ECF37A1428D30F3D00A4C1F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECF37A1528D30F3D00A4C1F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ECF37A1928D30F3E00A4C1F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,12 +361,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3496F3A4HL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VIPER/Info.plist;
+				INFOPLIST_FILE = VIPER/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +389,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3496F3A4HL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = VIPER/Info.plist;
+				INFOPLIST_FILE = VIPER/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
